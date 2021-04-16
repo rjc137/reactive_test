@@ -1,0 +1,15 @@
+package com.sample.reactive.service;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.sample.reactive.api.controller.service.IFooService;
+
+@ExtendWith(MockitoExtension.class)
+class FooServiceTest {
+
+	@Mock
+	IFooService fooService;
+
+}

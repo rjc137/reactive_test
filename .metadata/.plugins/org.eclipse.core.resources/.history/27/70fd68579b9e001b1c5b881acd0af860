@@ -1,0 +1,5 @@
+package com.sample.reactive.api.controller;
+
+public class FooController {
+
+}

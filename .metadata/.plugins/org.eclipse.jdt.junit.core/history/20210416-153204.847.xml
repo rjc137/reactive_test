@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FooServiceTest" project="reactive_api_foo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sample.reactive.service.FooServiceTest" time="0.409" displayname="FooServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.sample.reactive.service.FooServiceTest]">
+    <testcase name="testGetFoos" classname="com.sample.reactive.service.FooServiceTest" time="0.409" displayname="testGetFoos()" uniqueid="[engine:junit-jupiter]/[class:com.sample.reactive.service.FooServiceTest]/[method:testGetFoos()]"/>
+  </testsuite>
+</testrun>

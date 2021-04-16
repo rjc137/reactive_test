@@ -1,0 +1,5 @@
+package com.sample.reactive.controller;
+
+public class FooControllerTest {
+
+}

@@ -1,0 +1,16 @@
+package com.sample.reactive.controller;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
+import org.springframework.context.annotation.Import;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+import com.sample.reactive.api.controller.FooController;
+import com.sample.reactive.api.controller.service.IFooService;
+
+@ExtendWith(SpringExtension.class)
+@WebFluxTest(controllers = FooController.class)
+@Import(IFooService.class)
+public class FooControllerTest {
+
+}
