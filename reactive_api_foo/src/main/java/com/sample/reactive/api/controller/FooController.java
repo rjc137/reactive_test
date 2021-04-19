@@ -2,7 +2,6 @@ package com.sample.reactive.api.controller;
 
 import java.time.Duration;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +17,6 @@ import reactor.core.publisher.Flux;
 @RequestMapping("/v1/foos")
 public class FooController {
 
-	@Autowired
 	private IFooService fooService;
 
 	@Value("${com.sample.reactive.api.delay_seconds}")
